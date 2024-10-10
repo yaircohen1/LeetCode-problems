@@ -32,3 +32,7 @@ def longestCommonPrefix(strs):
             if not prefix: # If the prefix becomes empty, return an empty string
                 return ""
     return prefix
+
+# Test the function
+strs = ["flower", "flow", "flight"]
+print(longestCommonPrefix(strs))  # Output: "fl"
